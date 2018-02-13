@@ -13,19 +13,19 @@ public class CalculatorhmModal {
 	   }
 	   public void div(int firstnum,int secnum) {
 		   if(secnum==0) {
-			   result=-0;
+			   result=0;
 		   }
 		   else { result=firstnum/secnum;}
 	   }
 	   public void mod(int firstnum,int secnum) {
 		   if(secnum==0) {
-			   result=-0;
+			   result=0;
 		   }
 		   else result=firstnum%secnum;
 	   }
 	   public void squer(int num) {
 		   if(num<0) {
-			   result=-0;
+			   result=0;
 		   }
 		   else { result=(int) Math.sqrt(num);}
 	   }
